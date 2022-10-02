@@ -1,0 +1,357 @@
+/*MOBILE XS*/
+@media (max-width: 599px) {   
+    .container {
+        width: 320px;
+    }
+
+    .header-content {
+        width: 320px;      
+    }
+
+    .header-logo .logo {        
+        font-size: 30px;
+    }    
+
+    .header-nav-btn {
+        padding: 0 5px;
+    }
+
+    .header-title {    
+        margin-top: -10px;
+        margin-bottom: 10px;       
+        font-size: 32px;       
+    }
+
+    .header-subtitle {
+        font-size: 18px;
+    }    
+    
+    .header-scroll::after {       
+        width: 24px;
+    }
+
+    .main {
+        padding: 40px 0;
+    }
+
+    .main-header {    /*all page*/
+        font-size: 34px;        
+    } 
+
+    .main-row {      
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .main-row:last-child {
+        margin-bottom: 0;
+    }       
+
+    .main-img {
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer {        
+        text-align: center;      
+    }
+
+    .footer a {    
+        font-size: 16px;      
+    }
+
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .footer-widgets-group {
+        flex-direction: column;
+        align-items: center;  
+        margin-bottom: 40px;    
+    }
+  
+    .footer-services {
+        display: block;
+    }
+
+    .footer-widget {
+        width: 100%;
+    }
+
+    .footer-widget + .footer-widget {
+        margin-left: 0;
+        margin-top: 44px;
+        line-height: 1.2;
+    }
+
+    .footer-contacts {
+        margin-top: 50px;
+    }
+
+    .footer-title {
+        margin-bottom: 10px;    
+        font-size: 20px;
+    }
+
+    .footer-contacts p {
+        font-size: 16px;
+    }
+
+    .footer-list li {
+        margin-bottom: 10px;
+    }
+
+
+    /*===TOURS===*/
+    .inner-page {
+        padding: 34px 0 40px;
+    }    
+    .inner-page .container {
+        width: 320px;
+    }
+    .inner-page-tours-header {
+        margin-bottom: 30px; 
+    }
+
+    .main-header--tour {
+        font-size: 28px;
+    }
+
+    .card-title-wrapper {
+        height: 50px;
+        padding: 0 15px; 
+    }  
+
+    .card-title {
+        font-size: 20px;
+    }   
+
+    .card1, .card2 {
+        width: 290px;
+    }      
+
+    .cards-second-row-column1 { /*второй ряд, первая  колонка*/
+        width: 290px;
+    }
+    
+    .cards-second-row-column2 { /*второй ряд, вторая колонка*/
+        width: 290px;
+    }
+
+    .cards-first-row {
+        margin-bottom: 20px; 
+    }
+    
+   .cards-second-row-cards {
+        margin-bottom: 20px;
+    }      
+    
+    .cards-first-row-cards.card1 {
+        margin-bottom: 20px;
+    }
+   
+   .cards-second-row-cards {
+        margin-bottom: 20px;
+    }
+
+    .last-cards-second-row-cards {
+        margin-bottom: 20px;
+    }
+
+    /*===TRACKING===*/
+    .inner-page-tracking {
+        padding: 20px 0 30px 0; 
+    }   
+    
+    .inner-page-tracking h1 {
+        font-size: 28px; 
+        margin-bottom: 10px;   
+    }
+
+    .inner-page-tracking p {
+        font-size: 16px;
+        line-height: 1.62;
+    }
+    
+    .page-tracking-article {
+        margin-bottom: 20px;
+    }
+
+    .page-tracking-article img {
+        margin: 20px 0;
+    }
+
+    .page-tracking-article h2, 
+    .page-tracking-article h3, 
+    .page-tracking-article h4, 
+    .page-tracking-article h5, 
+    .page-tracking-article h6  {     
+        line-height: 1;
+    }
+
+    .page-tracking-article h2 {
+        margin-bottom: 20px;
+        margin-top: -2px;
+    }
+
+    .page-tracking-article h3 {
+        margin-bottom: 20px;
+        margin-top: -4px;
+    }
+
+    .page-tracking-article h4 {
+        margin-top: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .article-nav {
+        padding-top: 13px;
+        margin-bottom: 10px;        
+    }
+
+    .article-nav-title {
+        font-size: 22px;          
+        margin-bottom: 15px;
+        line-height: 1;    
+    } 
+
+    .article-nav-list a {
+        font-size: 16px;
+        padding: 8px 10px 6px 0;
+    } 
+    .br-xs {
+        display: block;
+    }
+
+
+    /*===CONTACTS===*/  
+    
+    .main-header--fs {
+        padding-top: 6px;
+        font-size: 28px;
+        line-height: 1;        
+    }
+
+    .contacts-header-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .contacts-info {
+        margin-bottom: 30px;
+    }
+
+    .contact-list-item {       
+        font-size: 16px;       
+    }
+
+    .contacts-block-title {     
+        font-size: 20px;
+    }
+
+    .contacts-block + .contacts-block {      
+        margin-top: 15px;
+    } 
+    
+    .contacts-block {
+        width: 320px;
+    }
+
+    .contacts-list {
+        margin-top: -2px;
+        line-height: 1.3;
+    }
+
+    .contact-list-item {     
+        padding-left: 34px;
+    }
+
+    .contact-list-item.address {
+        line-height: 1.4;
+    }
+     
+   
+    .form {
+        padding: 20px 15px 30px;     
+    }
+
+    .form-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .form-group-title {       
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .form-radio-group {
+        font-size: 16px;
+    }
+
+    .form-data {
+        flex-wrap: wrap;
+    }
+    
+    .form-data > .form-data-body + .form-data-body {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .form-data .form-data-body {  
+        flex: 1 1 100%;
+    }
+    .count-text {
+        font-size: 16px;
+    }
+
+    .form-group + .form-group {
+        margin-top: 20px;        
+    }
+
+    .radio-item {
+        margin-top: -2px;
+    }
+
+    .radio-item:not(:last-child) {    
+        margin-bottom: 10px;
+    }
+
+    .checkbox-item:not(:last-child)  {   
+        margin-bottom: 21px;
+    }
+
+    .checkbox-item {
+        line-height: 1.3;
+    }
+
+    .checkbox-text--br {
+        display: block;
+    }
+    
+    .custom-checkbox {      
+        margin-right: 15px; 
+    }
+
+    .form-wrapper {
+        margin-bottom: 19px;
+    }
+
+    .button--form {
+        padding: 0 35px;
+    }    
+
+    .personal-data {       
+        padding: 12px 15px;     
+    }
+    
+    .contacts-block-map {
+        width: 290px;
+        height: 157px;
+    }
+}

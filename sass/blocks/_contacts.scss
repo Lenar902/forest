@@ -1,0 +1,256 @@
+/*=========CONTACTS=======*/
+
+.contacts-header-wrapper {
+    margin-bottom: 40px;
+}
+
+.contacts-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;   
+}
+
+.contacts-info {
+    width: 470px;   
+}
+
+.contacts-block + .contacts-block {
+    margin-top: 40px;
+}
+
+.contacts-block-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.contact-list-item {
+    position: relative;
+    padding-left: 39px;
+    margin-bottom: 15px;    
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contact-list-item::before {
+    content: '';
+    display: block;    
+    width: 24px;
+    height: 24px; 
+    position: absolute;
+    top: 6px;
+    left: 0;    
+}
+
+.contact-list-item.phone::before {
+    background-image: url('./../img/icons/phone.svg');    
+}
+.contact-list-item.mail::before {
+    background-image: url('./../img/icons/mail.svg'); 
+}
+.contact-list-item.address::before {
+    background-image: url('./../img/icons/map-pin.svg'); 
+}
+
+.contacts-list a {
+    color: #31405B;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+.contacts-list a:hover {
+    color: #3a5992;
+    text-decoration: underline;
+}
+
+.contacts-block-map {
+    width: 470px;
+    height: 345px;
+}
+
+/*===Form===*/
+
+.form {  
+    width: 630px;
+    padding: 40px;  
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(211, 211, 211, 0.25);
+    color: #31405B;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.form-wrapper {
+    margin-bottom: 35px;
+}
+
+.form-group + .form-group {
+    margin-top: 30px;
+}
+
+.form-group-title {
+  margin-bottom: 15px;
+  margin-left: 2px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.form-group-title + .form-group-title {
+    margin-bottom: 13px;
+    margin-left: 0;
+}
+
+.form-name-body {
+  margin-bottom: 10px;
+}
+
+.form-name {
+  display: block;
+  width: 100%;
+}
+
+.form-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-data > .form-data-body + .form-data-body {
+  margin-left: 10px;
+}
+
+.form-data .form-data-body {  
+  flex: 0 1 50%;
+}
+
+.personal-data {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px 15px 20px;  
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+
+  background: #EEEEEE;
+  border: 1px solid #C0C0C0;
+  border-radius: 6px;  
+}
+
+.personal-data::placeholder {
+  color: rgba(49, 64, 91, 0.5);
+}
+
+/*CUSTOM RADIO*/
+.radio-item {
+    display: block;   
+    font-size: 18px;   
+}
+
+.radio-item:not(:last-child) {    
+    margin-bottom: 20px;
+}
+
+.real-radio {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;    
+    width: 20px;
+    height: 20px;
+    vertical-align: text-top;
+    margin-right: 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #C0C0C0;
+    border-radius: 50%;
+}
+
+.custom-radio::before {
+    content: '';  
+    display: block;  
+    width: 12px;
+    height: 12px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease-in;
+
+    background-color: #2AB698;
+    border-radius: 50%;   
+}
+
+.real-radio:checked + .custom-radio::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.real-radio:focus + .custom-radio {
+    box-shadow: 0 0 0 1px #098f5e;
+}
+
+/*CUSTOM CHECKBOX*/
+.checkbox-item {
+    display: flex;
+    font-size: 18px;
+    align-items: flex-start;
+}
+
+.checkbox-item:not(:last-child) {   
+    margin-bottom: 17px;
+}
+
+.real-checkbox {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.custom-checkbox {
+    flex-shrink: 0;
+    position: relative;
+    display: inline-block;    
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    margin-right: 11px;   
+
+    background: #EEEEEE;
+    border: 1px solid #C0C0C0;
+    border-radius: 2px;
+}
+
+.custom-checkbox::before {
+    content: '';  
+    display: block;  
+    width: 17px;
+    height: 17px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease-in;  
+    background-image: url('./../img/icons/checkbox.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.real-checkbox:checked + .custom-checkbox::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.real-checkbox:focus + .custom-checkbox {
+    box-shadow: 0 0 0 1px #098f5e;
+}
+

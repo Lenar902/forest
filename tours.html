@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туры и направления</title>
+    <meta name="description"  content="Туры и направления"/>
+    <meta name="keywords" content="приключения, лес, природа, джунгли, отдых, Форест Тревел" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="./img/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="./img/favicons/favicon.ico" />
+
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="msapplication-config" content="./img/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+<body class="bgcolor">
+     
+    <header class="header-inner">
+        <div class="header-top">
+            <div class="logo">ФорестТревел</div>
+
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a href="./index.html">Главная</a></li>
+                    <li class="header-nav-item"><a href="./tours.html">Туры и направления</a></li>
+                    <li class="header-nav-item"><a href="#!">О компании</a></li>
+                    <li class="header-nav-item"><a href="#!">Галерея</a></li>
+                    <li class="header-nav-item"><a href="./contacts.html">Контакты</a></li>
+                </ul>   
+                
+                <button class="header-nav-btn">
+                    <img src="./img/header/menu.svg" alt="меню">
+                </button>
+            </nav>
+        </div>        
+    </header>
+
+    <main class="inner-page">
+        <div class="container">
+            <div class="inner-page-tours-header">              
+                <h1 class="main-header main-header--tour">Туры и направления</h1>               
+            </div>
+            <!--CARDS-->
+            <div class="cards-wrapper">
+                <div class="cards-row cards-first-row"> <!--Первый ряд-->
+                    <div class="cards-first-row-cards card1">
+                        <a href="#" class="card-wrapper-link">
+                            
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="./img/cards/mobile-xs/01.jpg">
+                                <source media="(max-width: 899px)" srcset="./img/cards/mobile/01.jpg">
+                                <source media="(max-width: 1199px)" srcset="./img/cards/tablet/01.jpg">
+                                <img src="./img/cards/01.jpg" alt="бесплатные туры">
+                            </picture>                            
+
+                            <div class="card-title-wrapper card-title-wrapper_bg1">
+                                <h3 class="card-title">Бесплатные туры</h3>
+                            </div>
+                            
+                        </a>
+                    </div>
+
+                    <div class="cards-first-row-cards card2">
+                        <a href="#" class="card-wrapper-link">
+                            
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="./img/cards/mobile-xs/02.jpg">
+                                <source media="(max-width: 899px)" srcset="./img/cards/mobile/02.jpg">
+                                <source media="(max-width: 1199px)" srcset="./img/cards/tablet/02.jpg">
+                                <img src="./img/cards/02.jpg" alt="экстремальный отдых">
+                            </picture>                            
+
+                            <div class="card-title-wrapper card-title-wrapper_bg2">
+                                <h3 class="card-title">Экстремальный отдых</h3>
+                            </div>                            
+                        </a>
+                    </div>
+                </div>
+            
+
+                <div class="cards-row cards-second-row"> <!--Второй ряд-->
+                    <div class="cards-second-row-column1">
+                        <div class="cards-second-row-cards card3">
+                            <a href="#" class="card-wrapper-link">
+                                
+                                <picture>
+                                    <source media="(max-width: 599px)" srcset="./img/cards/mobile-xs/03.jpg">
+                                    <source media="(max-width: 899px)" srcset="./img/cards/mobile/03.jpg">
+                                    <source media="(max-width: 1199px)" srcset="./img/cards/tablet/03.jpg">
+                                    <img src="./img/cards/03.jpg" alt="невероятные приключения">
+                                </picture>                                 
+
+                                <div class="card-title-wrapper card-title-wrapper_bg3">
+                                    <h3 class="card-title">Невероятные приключения</h3>
+                                </div>
+                                
+                            </a>
+                        </div>
+
+                        <div class="cards-second-row-cards last-cards-second-row-cards card4">
+                            <a href="./tracking.html" class="card-wrapper-link">
+                                
+                                <picture>
+                                    <source media="(max-width: 599px)" srcset="./img/cards/mobile-xs/04.jpg">
+                                    <source media="(max-width: 899px)" srcset="./img/cards/mobile/04.jpg">
+                                    <source media="(max-width: 1199px)" srcset="./img/cards/tablet/04.jpg">
+                                    <img src="./img/cards/04.jpg" alt="трекинг походы">
+                                </picture>                                
+
+                                <div class="card-title-wrapper card-title-wrapper_bg4">
+                                    <h3 class="card-title">Трекинг походы</h3>
+                                </div>
+                                                                
+                            </a>   
+                        </div>                                        
+                    </div>
+
+                    <div class="cards-second-row-column2">
+                       
+                        <div class="card5">  
+                            <a href="#" class="card-wrapper-link">                   
+                                <picture>
+                                    <source media="(max-width: 599px)" srcset="./img/cards/mobile-xs/05.jpg">
+                                    <source media="(max-width: 899px)" srcset="./img/cards/mobile/05.jpg">
+                                    <source media="(max-width: 1199px)" srcset="./img/cards/tablet/05.jpg">
+                                    <img src="./img/cards/05.jpg" alt="экзотические джунгли">
+                                </picture>                                
+
+                                <div class="card-title-wrapper card-title-wrapper_bg5">
+                                    <h3 class="card-title">Экзотические джунгли</h3>
+                                </div>  
+                            </a> 
+                        </div>                  
+                       
+                    </div>
+                </div>
+            </div>
+            <!--//CARDS-->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <div class="footer-logo">
+                        <div class="logo">ФорестТревел</div>
+                    </div>
+                    <p>
+                        При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены. Copyright © 2021
+                    </p>
+                </div>
+              
+                <div class="footer-widgets-group">
+                    <div class="footer-widget footer-info">
+                        <h4 class="footer-title">Информация</h4>
+                        <ul class="footer-list">
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Галерея</a></li>
+                            <li><a href="#">Блог</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-widget footer-services">
+                        <h4 class="footer-title">Услуги</h4>
+                        <ul class="footer-list">
+                            <li><a href="./tours.html">Бесплатные туры</a></li>                                
+                            <li><a href="#">Невероятные приключения</a></li>
+                            <li><a href="#">Экстремальный отдых</a></li>
+                            <li><a href="#">Экзотические джунгли</a></li>
+                            <li><a href="./tracking.html">Трекинг походы</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-widget footer-contacts">
+                        <h4 class="footer-title">Контакты</h4>
+                        <p><a href="tel:+79055555555">+7 (905) 555-55-55</a></p>
+                        <p><a href="mailto:info@foresttravel.com">info@foresttravel.com</a></p>
+                        <p>г. Москва, Рязанский проспект 54, офис 112.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

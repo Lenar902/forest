@@ -1,0 +1,241 @@
+/*TABLET*/
+@media (max-width: 1199px) {
+    .container {  /* all pages */
+        width: 900px;
+    }
+    
+    .header { /* home page */
+        height: 591px;
+    }
+
+    .header-top {   /* all pages except home page */
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .header-content { /* home page */
+        width: 900px;
+        margin-top: 0;
+        padding: 0 15px;
+    } 
+
+    .header-nav-list { /* all pages */
+        display: none;
+    }
+
+    .header-nav-btn { /* all pages */
+        display: block;
+        padding: 0 5px;
+    }  
+
+    .header-title {  /* all pages */
+        margin-bottom: 27px;         
+        font-size: 52px;
+        line-height: 1;
+    }
+    
+    .header-scroll {
+        font-size: 0;
+    }
+    
+    .main {
+        padding: 80px 0;
+    }
+
+    .main-header {    
+        font-size: 50px;          
+    }
+
+    .main-header--ln {
+        line-height: 1; 
+    }
+
+    .main-content-text--ln {
+        line-height: 1.62;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+
+    .main-row {      
+        margin-bottom: 80px;
+    }
+
+    .main-row:last-child {
+        margin-bottom: 0;
+    }
+
+    .main-row > * {
+        width: calc(50% - 15px);
+    }    
+
+    .main-content-text {   
+        margin-bottom: 20px;    
+        font-size: 18px;      
+    }
+
+  
+    .footer {        
+        padding: 50px 0;        
+    }
+        
+    .footer-copyright, .footer-info {
+        width: 195px;
+    }  
+
+    .footer-services {
+        display: none;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo .logo {
+        font-size: 30px;       
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
+    .footer-widgets-group {     
+        padding-top: 8px;  
+    }
+
+    .footer-title {
+        margin-bottom: 20px;       
+    }
+
+    /*===TOURS===*/
+    .card-title-wrapper {
+        height: 60px;
+        padding: 0 20px;      
+    }  
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .inner-page {
+        padding: 60px 0;        
+    }
+
+    .inner-page .container {
+        width: 900px;
+    }
+
+    .inner-page-tours-header {
+        margin-bottom: 40px;      
+    }  
+
+    .cards-first-row-cards { /*первый ряд, первая и вторая колонки*/
+        width: 100%;   
+    }
+
+    .card1, .card2 {
+        width: 420px;       
+    }    
+   
+    .cards-second-row-column1 { /*второй ряд, первая  колонка*/
+        width: 495px;        
+    }
+
+    .cards-second-row-column2 { /*второй ряд, вторая колонка*/
+        width: 345px;           
+    }   
+      
+  
+    /*=========TRACKING=======*/
+    .inner-page-tracking {
+        padding: 40px 0 60px 0; 
+    }
+
+    .inner-page-tracking h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .inner-page-tracking p {
+        font-size: 18px;
+    }
+
+    .page-tracking-article img {
+        margin: 30px 0;
+    }
+
+    .page-tracking-article h2, 
+    .page-tracking-article h3, 
+    .page-tracking-article h4, 
+    .page-tracking-article h5, 
+    .page-tracking-article h6 {     
+        line-height: 1.7;
+    }
+
+    .article-nav-list a {
+        font-size: 18px;
+        padding: 14px 5px 14px 0;
+    }
+
+
+    /*===CONTACTS===*/
+    .inner-page--contacts {
+        padding: 40px 0 60px;
+    }
+ 
+    .contacts-header-wrapper {
+        margin-bottom: 40px;
+    }   
+
+    .contacts-row {
+        flex-wrap: wrap;
+    }
+
+    .contacts-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
+    }    
+
+    .contacts-block {
+        width: 420px;
+    }
+
+    .contacts-block + .contacts-block {
+        margin-left: 30px;
+    }
+
+    .contacts-block + .contacts-block {
+        margin-top: 0;
+    }  
+
+    .contact-list-item {       
+        font-size: 18px;       
+    }
+
+    .contacts-block-title {     
+        font-size: 24px;
+        margin-top: 0px;
+    }
+
+    .contacts-list {
+        margin-top: 25px;
+    }
+    .form {  
+        width: 100%;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+
+    .personal-data {       
+        padding: 12px 28px 15px;          
+    }
+
+    .contacts-block-map {
+        width: 420px;
+        height: 310px;
+    }
+}
+/*END TABLET*/
